@@ -3,7 +3,7 @@
 ########################################################################
 # Extension Manager/Repository config file for ext: "np_includets"
 #
-# Auto generated 06-08-2009 12:24
+# Auto generated 26-10-2009 20:24
 #
 # Manual updates:
 # Only the data in the array - anything else is removed by next write.
@@ -29,7 +29,7 @@ $EM_CONF[$_EXTKEY] = array(
 	'clearCacheOnLoad' => 0,
 	'lockType' => '',
 	'author_company' => '',
-	'version' => '0.1.1',
+	'version' => '0.2.0',
 	'constraints' => array(
 		'depends' => array(
 		),
@@ -38,7 +38,7 @@ $EM_CONF[$_EXTKEY] = array(
 		'suggests' => array(
 		),
 	),
-	'_md5_values_when_last_written' => 'a:4:{s:36:"class.np_includets_tcemainprocdm.php";s:4:"12bc";s:31:"class.ux_t3lib_tsparser_ext.php";s:4:"ca41";s:12:"ext_icon.gif";s:4:"1bdc";s:17:"ext_localconf.php";s:4:"01e3";}',
+	'_md5_values_when_last_written' => 'a:4:{s:36:"class.np_includets_tcemainprocdm.php";s:4:"d129";s:31:"class.ux_t3lib_tsparser_ext.php";s:4:"96e2";s:12:"ext_icon.gif";s:4:"86c4";s:17:"ext_localconf.php";s:4:"01e3";}',
 	'suggests' => array(
 	),
 );

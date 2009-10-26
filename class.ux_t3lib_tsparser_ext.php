@@ -8,6 +8,7 @@ class ux_t3lib_tsparser_ext extends t3lib_tsparser_ext {
 
 		if (is_array($row)) {
 			$row['config'] = t3lib_TSparser::checkIncludeLines($row['config']);
+			$row['constants'] = t3lib_TSparser::checkIncludeLines($row['constants']);
 		}
 		return $row;
 	}

@@ -5,9 +5,13 @@ class tx_myextension_tcemainprocdm {
 		if ($table != 'sys_template') {
 			return;
 		}
-
+		// Setup Field
 		if (strlen($incomingFieldArray['config'])) {
 			$incomingFieldArray['config'] = $this->exportIncludedTyposcript($incomingFieldArray['config']);
+		}
+		// Constants Field
+		if (strlen($incomingFieldArray['constants'])) {
+			$incomingFieldArray['constants'] = $this->exportIncludedTyposcript($incomingFieldArray['constants']);
 		}
 	}
 
